@@ -1,0 +1,14 @@
+{
+    "workbench.colorCustomizations": {
+        "titleBar.activeForeground": "#d3c8c8",
+        "titleBar.inactiveForeground": "#d3c8c8cc",
+        "titleBar.activeBackground": "#006120",
+        "titleBar.inactiveBackground": "#006120"
+    },
+    "editor.tabSize": 4,
+    "tslint.autoFixOnSave": true,
+    "editor.formatOnSave": true,
+    "prettier.trailingComma": "all",
+    "prettier.printWidth": 140,
+    "prettier.singleQuote": true
+}
