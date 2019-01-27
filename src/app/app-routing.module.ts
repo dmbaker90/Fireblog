@@ -5,11 +5,11 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 const appRoutes: Routes = [
     {
         path: '',
-        loadChildren: 'app/reader/reader.module#ReaderModule',
+        loadChildren: './reader/reader.module#ReaderModule',
     },
     {
         path: 'editor',
-        loadChildren: 'app/editor/editor.module#EditorModule',
+        loadChildren: './editor/editor.module#EditorModule',
     },
     { path: '**', component: PageNotFoundComponent },
 ];

@@ -6,7 +6,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 
 @NgModule({
     declarations: [AppComponent, PageNotFoundComponent],
-    imports: [BrowserModule, AppRoutingModule],
+    imports: [BrowserModule.withServerTransition({ appId: 'fire-blog' }), AppRoutingModule],
     providers: [],
     bootstrap: [AppComponent],
 })
